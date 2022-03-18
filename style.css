@@ -126,6 +126,9 @@ img {
     width: 100%;
   }
 }
+.navbar-default {
+    background: #000000;
+  }
 
 .container {
   position: relative;
@@ -161,7 +164,6 @@ img {
     top: 150%;
     left: 50%;
     transform: translateX(-50%);
-    width: 70%;
     height: 0;
     z-index: 999;
     overflow: hidden;
@@ -171,24 +173,28 @@ img {
     border-radius: 10px;
     background-color: #3b3054;
     transition: height 0.3s;
+    width: 100vw;
   }
 }
 
 @media (max-width: 767px) {
   .header .main-navgation {
     width: 90%;
+    width: 100vw;
   }
 }
 
 @media (max-width: 375px) {
   .header .main-navgation {
     width: 100%;
+    width: 100vw;
   }
 }
 
 @media (max-width: 280px) {
   .header .main-navgation {
     padding: 0 25px;
+    width: 100vw;
   }
 }
 
@@ -209,6 +215,7 @@ img {
 @media (max-width: 280px) {
   .header .main-navgation > div {
     padding: 25px 0;
+    width: 100vw;
   }
 }
 
@@ -219,11 +226,13 @@ img {
 .header .nav-buttons .btn {
   color: #fff;
   width: 80%;
+  width: 100vw;
 }
 
 @media (max-width: 375px) {
   .header .nav-buttons .btn {
     width: 100%;
+    width: 100vw;
   }
 }
 
@@ -232,11 +241,13 @@ img {
   color: #9e9aa7;
   cursor: pointer;
   display: none;
+
 }
 
 @media (max-width: 992px) {
   .header .burger-menu {
     display: block;
+    width: 100vw;
   }
 }
 
@@ -246,6 +257,12 @@ img {
   color: #9e9aa7;
   transition: 0.3s;
 }
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: green;
+}
+
 
 .main-navgation a:hover {
   color: #232127;
