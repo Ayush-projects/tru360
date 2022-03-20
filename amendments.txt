@@ -27,3 +27,10 @@ Out team (Add in Navbar)
 
 Pricing Chart Extend to same size
 Buy Buttons replaced with request for quote
+
+testimonial Page 
+tr
+
+
+
+blog
