@@ -1,0 +1,29 @@
+Remove Explore Button
+
+Add search bar on top
+
+It does paragraph - Left Alignment + Icons ( Bullet points)
+
+
+
+Add blocks in straight lines
+
+
+
+About page (Same icons )
+
+
+footer
+blog
+about us
+our team
+contact 
+support
+FAQ's (Add in navbar)
+Out team (Add in Navbar)
+
+
+
+
+Pricing Chart Extend to same size
+Buy Buttons replaced with request for quote
