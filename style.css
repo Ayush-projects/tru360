@@ -14,6 +14,7 @@ body {
   font-family: "Poppins", sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
   font-weight: 500;
   outline: none;
+  width: 100vw;
 }
 
 h1,
@@ -308,8 +309,9 @@ img {
   display: flex;
   align-items: center;
   padding: 40px 0;
-  margin-left: 11%;
+  margin-left: 8%;
   overflow-x: hidden;
+  margin-right: 0px;
 }
 
 @media (max-width: 992px) {
@@ -317,7 +319,7 @@ img {
     flex-direction: column-reverse;
     margin-left: 0;
     padding-bottom: 80px;
-    row-gap: 60px;
+    row-gap: 10px;
   }
 }
 
@@ -379,48 +381,48 @@ img {
 
 .landing .landing-image {
   position: relative;
-  right: -70px;
+  right: -30px;
 }
 
 @media (max-width: 992px) {
   .landing .landing-image {
     flex-basis: initial;
-    right: -240px;
+    right: -200px;
   }
 }
 
 @media (max-width: 767px) {
   .landing .landing-image {
-    right: -170px;
+    right: -130px;
   }
 }
 
 @media (max-width: 500px) {
   .landing .landing-image {
-    right: -110px;
+    right: -70px;
   }
 }
 
 @media (max-width: 375px) {
   .landing .landing-image {
-    right: -120px;
+    right: -80px;
   }
 }
 
 @media (max-width: 280px) {
   .landing .landing-image {
-    right: -70px;
+    right: -30px;
   }
 }
 
 @media (min-width: 1100px) {
   .landing .landing-image {
-    right: -130px;
+    right: -110px;
   }
 }
 
 .landing .landing-image img {
-  width: 100%;
+  width: 80%;
 }
 
 .features {
